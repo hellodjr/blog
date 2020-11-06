@@ -3,7 +3,7 @@ theme: jekyll-theme-slate
 deploy:
     type:git
     repo:
-        github:https://github.com/https://hellodjr.github.io/blog/
+        github:https://github.com/hellodjr.github.io/blog/
     branch:master
     
     eploy:
