@@ -1,1 +1,19 @@
 theme: jekyll-theme-slate
+
+deploy:
+    type:git
+    repo:
+        github:https://github.com/https://hellodjr.github.io/blog/
+    branch:master
+    
+    eploy:
+  type: git
+  repo: <repository url>
+  branch: [branch]
+  token: ''
+  message: [message]
+  name: [git user]
+  email: [git email]
+  extend_dirs: [extend directory]
+  ignore_hidden: false # default is true
+  ignore_pattern: regexp  # whatever file that matches the regexp will be ignored when deploying
